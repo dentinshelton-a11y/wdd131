@@ -1,6 +1,7 @@
 :root {
     --primary-color: rgb(23, 44, 79);
-    --secondary-color: rgb(235, 233, 233);
+    --secondary-color: rgb(76, 222, 163);
+    --background-color: rgb(240, 239, 239);
     --font1-color: rgb(255, 255, 255);
     --font2-color: rgb(21, 17, 17);
 }
@@ -14,7 +15,7 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    background-color: var(--secondary-color);
+    background-color: var(--background-color);
     color: var(--font2-color);
 }
 
@@ -40,16 +41,18 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-color: var(--font2-color);
+    background-color: var(--secondary-color);
+    
 }
 
 .navigation li {
     flex: 1 1 auto;
+    
 }
 
 .navigation a {
     display: block;
-    color: var(--font1-color);
+    color: var(--font2-color);
     padding: 0.75rem;
     text-decoration: none;
     text-align: center;
