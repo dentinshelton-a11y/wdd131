@@ -140,17 +140,12 @@ h3 {
     width: 80%;
 }
 
-.flag {
+.flag  {
     grid-column: 1/2;
     grid-row: 4/5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.flag img {
-    max-width: 80%;
-}
+
 
 .location {
     padding-left: 0;
@@ -178,3 +173,6 @@ footer {
     color: var(--font1-color);
 }
 
+#lastModified {
+  color: #e5501a;
+  font-size: 0.85rem;
