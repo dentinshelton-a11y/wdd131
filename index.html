@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 – Dynamic Web Fundamentals – Your Name</title>
+    <title>WDD 131 – Dynamic Web Fundamentals – Dentin Shelton</title>
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Dentin Shelton" keywords="WDD 131, Dynamic Web Fundamentals, Dentin Shelton, web development, personal website, projects, skills">
     <meta name="author" content="Dentin Shelton">
     <link rel="stylesheet" href="styles/base.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+
     <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
     <header>
-        <span id="course title">WDD 131 - Dynamic Web Fundamentals</span>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
         <nav>
-            <ul>
-                <li><a href="www.facebook.com">Facebook</a></li>
-                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/3?lang=eng&id=p14#p14">Scripture</a></li>
+            <ul class="navigation">
+                <li><a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+                <li><a href="https://byupw.instructure.com/" target="_blank" rel="noopener">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/3?lang=eng&id=p14#p14" target="_blank" rel="noopener">Scripture</a></li>
                 <li><a href="finalproject.html">Final Project</a></li>
             </ul>
         </nav>
@@ -24,18 +29,39 @@
     <main>
         <h1>Dentin Shelton</h1>
         <section class="card">
-            <h2>About Me</h2>
-            <p>My name is Dentin Shelton. I am a a BYU Pathway student Aiming for a Bachelors in Software Developement. I was born in a small town in the state of New Mexico in the USA called Bloomfield. I have moved around the United States ove the years but I currently live with my wife and three kids in Bloomfield.</p>
-            <img src="selfportrait.img" alt="Dentin Shelton's Profile Picture">
+            <div class="about_me">
+                <div class="me">
+                    <h2>About Me</h2>
+                </div>
+                <div class="bio">
+                    <p>My name is Dentin Shelton. I am a BYU Pathway student aiming for a Bachelor's in Software Development. I was born in a small town in New Mexico called Bloomfield. I have moved around the United States over the years, but I currently live with my wife and three kids in Bloomfield.</p>
+                </div>
+                <div class="profile">
+                    <img src="images/profile.jpg" alt="Dentin Shelton's Profile Picture">
+                </div>
+                <h3>Bloomfield, New Mexico, USA</h3>
+                <div class="flag">
+                    <img src="images/usflag.jpg" alt="United States Flag">
+                </div>
+                <div class="location">
+                    <p>Bloomfield is a small town located in the northwestern part of New Mexico. It is known for its rich history, beautiful landscapes, and its proximity to the Four Corners Monument where four states meet at one point.</p>
+                </div>
+            </div>
         </section>
         <section class="card">
-            <h2>Bloomfield, New Mexico, USA</h2>
-            <img src="usflag.img" alt="United States Flag">
-            <p>Bloomfield is a small town located in the northwestern part of New Mexico. It is known for its rich history, beautiful landscapes, and it's proximity to the Four Corners Monument where four states meet at one point.</p>
+            <h2>Web Dev Resources</h2>
+            <ul class="resources">
+                <li><a href="#" title="Dev to Community">Dev to Community</a></li>
+                <li><a href="#" title="Smashing Magazine">Smashing Magazine</a></li>
+                <li><a href="#" title="CSS Tricks">CSS Tricks</a></li>
+                <li><a href="#" title="W3 Schools">W3 Schools</a></li>
+                <li><a href="#" title="Udemy">Udemy</a></li>
+                <li><a href="#" title="Lorem Picsum Image Placeholder">Lorem Picsum Image Placeholder</a></li>
+            </ul>
         </section>
     </main>
     <footer>
-        <p>&copy; <span id="currentyear"></span>Dentin Shelton - New Mexico</p>
+        <p>&copy; <span id="currentyear"></span> | Dentin Shelton | New Mexico |</p>
         <p id="lastModified"></p>
     </footer>
 </body>
