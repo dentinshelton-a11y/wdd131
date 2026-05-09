@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(30, 108, 54);
+    --primary-color: rgb(23, 44, 79);
     --secondary-color: rgb(235, 233, 233);
     --font1-color: rgb(255, 255, 255);
     --font2-color: rgb(21, 17, 17);
@@ -23,7 +23,7 @@ header {
 }
 
 #course-title {
-    background-color: var(--font2-color);
+    background-color: var(--primary-color);
     color: var(--font1-color);
     padding: 1rem;
     font-weight: 500;
@@ -40,7 +40,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: var(--font2-color);
 }
 
 .navigation li {
