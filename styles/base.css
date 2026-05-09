@@ -2,7 +2,7 @@
     --primary-color: rgb(56, 41, 187);
     --secondary-color: rgb(200, 200, 200);
     --font1-color: rgb(255, 255, 255);
-    --font2-color: rgb(0, 0, 0);
+    --font2-color: rgb(21, 17, 17);
 }
 
 * {
@@ -40,7 +40,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-color: var(--font2-color);
+    background-color: var(--primary-color);
 }
 
 .navigation li {
@@ -74,7 +74,7 @@ h1 {
 }
 
 .card {
-    border: 1px solid var(--font2-color);
+    border: 1px solid var(--secondary-color);
     margin: 0.5rem;
     border-radius: 10px;
     
