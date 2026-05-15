@@ -42,12 +42,13 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     background-color: var(--secondary-color);
+    gap: 1rem;
     
 }
 
 .navigation li {
     flex: 1 1 auto;
-    
+    padding: 1rem; 
 }
 
 .navigation a {
@@ -87,6 +88,7 @@ h1 {
 .card img,
 .resources {
     padding: 1rem;
+   
 }
 
 .card img {
@@ -158,12 +160,17 @@ h3 {
 .resources {
     padding: 1rem 2rem 1rem;
     width: fit-content;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 
 .resources a:hover {
     text-decoration: underline;
+}
+
+.resources a{
+    display: block;
+    padding: 1rem;
+    
 }
 
 footer {
