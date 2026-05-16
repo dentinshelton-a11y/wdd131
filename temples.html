@@ -7,49 +7,69 @@
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Dynamic Web Fundamentals, Dentin Shelton, web development, personal website, projects, skills">
     <meta name="author" content="Dentin Shelton">
     <link rel="stylesheet" href="styles/temples.css">
-    <link rel="stylesheet" href="styles/temples-large.css" media="(min-width: 800px)">
+    <link rel="stylesheet" href="styles/temples-large.css" media="(min-width: 625px)">
     <script src="scripts/temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header>Temple Album</header>
+    <header>
+        <span id="temple-album">Temple Album</span>
+        <button type="button" id="menu" aria-label="Hamburger Button"></button>
         <nav>
-            <li><a href="index.html">Home</a></li>
-            <li>Old</li>
-            <li>new</li>
-            <li>large</li>
-            <li>Small</li>
-        </nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+         </nav>
+    </header>
     <main>
-        <h1>MY Favorite Temples</h1>
-            <section class="card">
-                <div class="temple">
-                    <figure>
-                        <img src="images/temple1.jpg" alt="Temple">
-                        <figcaption>Temple</figcaption>
-                    <figure>
-                        <img src="images/temple1.jpg" alt="Temple">
-                        <figcaption>Temple</figcaption>
-                    <figure>
-                        <img src="images/temple1.jpg" alt="Temple">
-                        <figcaption>Temple</figcaption>
-                    <figure>
-                        <img src="images/temple1.jpg" alt="Temple">
-                        <figcaption>Temple</figcaption>
-                    <figure>
-                        <img src="images/temple1.jpg" alt="Temple">
-                        <figcaption>Temple</figcaption>
-                    <figure>
-                        <img src="images/temple1.jpg" alt="Temple">
-                        <figcaption>Temple</figcaption>
-                    <figure>
-                        <img src="images/temple1.jpg" alt="Temple">
-                        <figcaption>Temple</figcaption>
-                    <figure>
-                        <img src="images/temple1.jpg" alt="Temple">
-                        <figcaption>Temple</figcaption>
-                    <figure>
-                        <img src="images/temple1.jpg" alt="Temple">
-                        <figcaption>Temple</figcaption>
+        <h1>Home</h1>
+        <div class="temple">
+            <figure>
+                <img src="images/albuquerque.jpg" alt="Albuquerque New Mexico Temple">
+                <figcaption>Albuquerque New Mexico Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/calgary_alberta.jpeg" alt="Calgary Alberta Temple">
+                <figcaption>Calgary Alberta Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/cardston.jpeg" alt="Cardston Alberta Temple">
+                <figcaption>Cardston Alberta Temple</figcaption>
+            
+            </figure>
+            <figure>
+                <img src="images/farmington.jpg" alt="Farmington New Mexico Temple">
+                <figcaption>Farmington New Mexico Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/layton.jpg" alt="Layton Utah Temple">
+                <figcaption>Layton Utah Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/salt_lake.jpg" alt="Salt Lake City Temple">
+                <figcaption>Salt Lake City Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/salt_lake_mirror.jpg" alt="Salt Lake City Temple Mirror Pond">
+                <figcaption>Salt Lake City Temple w/ mirror reflection</figcaption>
+            </figure>
+            <figure>
+                <img src="images/san_antonio.jpg" alt="San Antonio Texas Temple">
+                <figcaption>San Antonio Texas Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/san_diego.jpg" alt="San Diego California Temple">
+                <figcaption>San Diego California Temple</figcaption>
+            </figure>
+        </div>
     </main>
     <footer>
         <p>&copy; <span id="currentyear"></span> | Dentin Shelton | New Mexico |</p>
